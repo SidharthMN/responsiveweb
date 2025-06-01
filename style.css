@@ -7,31 +7,48 @@ body {
   min-height: 95vh;
 }
 
+h1{
+  font-size: 5rem;
+  text-align: center;
+}
+
+.card{
+  width: 45%;
+  display: inline-block;
+  margin-bottom: 30px;
+  text-align: justify;
+  margin-right: 4%;
+}
+.card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline-block;
+    object-fit: cover;
+  }
+
 @media (max-width : 480px){
   .logo{
     width: 100px;
   }
-  .left card{
-    display: inline-block;
-  }
-  .right card{
-    display: inline-block;
-  }
+  
   h1{
     font-size: 3.5rem;
+    text-align: center;
   }
-  .card img{
-    display: inline;
+
+  .card {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 30px;
     text-align: justify;
   }
-}
-.main {
-  flex: 1;
-}
 
-h1 {
-  font-size: 5rem;
-  text-align: center;
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline-block;
+    object-fit: cover;
+  }
 }
 
 footer {
